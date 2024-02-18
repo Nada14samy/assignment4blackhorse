@@ -1,117 +1,138 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
 header {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     background-color: whitesmoke;
 }
-header .img{
+
+header .img {
     width: 40%;
     text-align: center;
-    margin: auto; 
+    margin: auto;
 }
-header .img img{
+
+header .img img {
     width: 80%;
     height: 80%;
+    margin-top: 5px;
 }
-header .text{
+
+header .text {
     width: 60%;
     text-align: center;
     margin: 20px;
     padding: 30px;
 }
-header .text span{
+
+header .text span {
     font-family: "Dancing Script", cursive;
     font-size: 30px;
     color: #f0f;
 }
-header .text h1{
+
+header .text h1 {
     text-transform: uppercase;
     font-weight: 500;
     margin-bottom: 30px;
 }
-header .text p{
+
+header .text p {
     margin-bottom: 40px;
 }
-header .text button{
+
+header .text button {
     border: 2px solid #000;
     text-transform: uppercase;
     padding: 10px 15px;
     font-weight: 500;
     cursor: pointer;
 }
-header .text button:hover{
+
+header .text button:hover {
     background-color: #000;
     color: #fff;
 }
 
-@media screen and (max-width:1075px){
-    header{
+@media screen and (max-width:1075px) {
+    header {
         padding: 16px;
     }
-    header .img{
-    width: 100%;
+
+    header .img {
+        width: 70%;
     }
-    header .text{
+
+    header .text {
         width: 100%;
         margin: 0px;
         padding: 0px;
     }
-    header .text span{
+
+    header .text span {
         font-size: 25px;
     }
-    header .text h1{
+
+    header .text h1 {
         font-size: 23px;
     }
-    header .text p{
+
+    header .text p {
         font-size: 15px;
     }
 }
 
-@media screen and (max-width:700px){
-    header{
+@media screen and (max-width:700px) {
+    header {
         display: flex;
         flex-direction: column-reverse;
-        height: auto;
         padding: 20px;
+        height: auto;
     }
-    header .img{
-    width: 80%;
+
+    header .img {
+        width: 80%;
     }
-    header .text{
+
+    header .text {
         width: 100%;
         margin: 10px;
         padding: 15px;
     }
-    header .text span{
+
+    header .text span {
         font-size: 25px;
     }
-    header .text h1{
+
+    header .text h1 {
         font-size: 23px;
     }
-    header .text p{
+
+    header .text p {
         font-size: 14px;
     }
 }
 
-
-@media screen and (max-width:450px){
-    header{
+@media screen and (max-width:450px) {
+    header {
         padding: 3px;
     }
-    header .text h1{
+
+    header .text h1 {
         font-size: 22px;
     }
-    header .text p{
+
+    header .text p {
         font-size: 13px;
     }
 }
-
